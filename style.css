@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d1117, #30363d);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    padding: 20px;
+}
+
+.profile-container {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+}
+
+.profile-container h1 {
+    color: #24292f;
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#usernameInput {
+    flex: 1;
+    padding: 12px 14px;
+    border: 2px solid #d0d7de;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.2s ease;
+}
+
+#usernameInput:focus {
+    outline: none;
+    border-color: #2da44e;
+}
+
+#searchbtn {
+    padding: 12px 22px;
+    background: #2da44e;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+}
+
+#searchbtn:hover {
+    background: #2c974b;
+}
+
+#searchbtn:active {
+    transform: scale(0.96);
+}
+
+#message {
+    color: #cf222e;
+    font-weight: 600;
+    min-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+#profileCard,
+#profilecard {
+    background: #f6f8fa;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+#avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #2da44e;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+#name {
+    color: #24292f;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+#bio {
+    color: #57606a;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+#profileCard p,
+#profilecard p {
+    color: #24292f;
+}
+
+#repos,
+#followers {
+    font-weight: 700;
+    color: #2da44e;
+}
+
