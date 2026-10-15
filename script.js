@@ -31,6 +31,9 @@ searchBtn.addEventListener("click", function () {
             avatarDisplay.src = data.avatar_url;
             reposDisplay.textContent = data.public_repos;
             followersDisplay.textContent = data.followers;
+
+            profileCard.classList.remove("hidden");
+            messageDisplay.textContent = "";
         })
         .catch(function () {
         });

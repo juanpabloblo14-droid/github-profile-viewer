@@ -116,3 +116,6 @@ body {
     color: #2da44e;
 }
 
+.hidden{
+    display: none;
+}
